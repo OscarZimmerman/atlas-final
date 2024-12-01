@@ -5,6 +5,7 @@ Below is my working Docker Container for the Higgs boson detection ATLAS experim
 To run, execute these two lines:
 
 docker build -t my-analysis-container .
+
 docker run --rm -it -v $(pwd)/output:/app/output my-analysis-container
 
 
