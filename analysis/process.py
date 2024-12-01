@@ -314,7 +314,7 @@ def plot_data(data):
 
 
 if __name__ == "__main__":
-    # Step 1: Start processing data
+    # Start processing data
     start = time.time()
     logging.info("Starting data processing...")
     
@@ -323,7 +323,7 @@ if __name__ == "__main__":
     elapsed = time.time() - start
     logging.info(f"Data processing complete in {elapsed:.2f} seconds.")
 
-    # Step 2: Plot data
+    # Plot data
     logging.info("Starting data plotting...")
     plot_data(data)
     plt.savefig("plot.png")  # Save the plot
